@@ -1,0 +1,67 @@
+@import "utilities/colours";
+
+#thumbnail-container{
+    margin-top:100px;
+}
+
+#bkg-fill{
+   width:100%;
+   height:150%;
+   top:-10px;
+   position: fixed;
+}
+
+.row{
+    margin-bottom: 25px;
+}
+.flex-left {
+    position: inline;
+}
+
+.arcade-font {
+    font-family: "8-bit", 'Courier New', Courier, monospace;
+}
+
+.t-all {
+    border-width: 5px;
+    border-color: black;
+
+    h3{
+        color: black;
+        text-decoration: underline;
+    }
+
+    p{
+        color:black;
+    }
+}
+
+#t-1 {
+    background-image: radial-gradient(circle, white, $red);
+    box-shadow: 5px 5px 10px  $red;
+}
+
+#t-2 {
+    background-image: radial-gradient(circle, white, $blue);
+    box-shadow: 5px 5px 10px  $blue;
+}
+
+#t-3 {
+    background-image: radial-gradient(circle, white, $green);
+    box-shadow: 5px 5px 10px  $green;
+}
+
+#t-4 {
+    background-image: radial-gradient(circle, white, $yellow);
+    box-shadow: 5px 5px 10px  $yellow;
+}
+
+#t-5{
+    background-image: radial-gradient(circle, white, $light-blue);
+    box-shadow: 5px 5px 10px  $light-blue;
+}
+
+#t-6{
+    background-image: radial-gradient(circle, white, $purple);
+    box-shadow: 5px 5px 10px  $purple;
+}
